@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!--Customise CSS Link-->
+  <link rel="stylesheet" href="./style.css" type="text/CSS">
+</head>
+<body>
+  <nav>
+    <h2>ZFC</h2>
+    <div class="search"><img class="srcimg" src="./search.svg"><input type="search" class="srcbox" placeholder="search for Restaurant or Dish"></div>
+    <img class="cartimg" src="./cart.jpeg" >
+    <ul>
+      <li>
+        <a>Sign In</a>
+      </li>
+      <li>
+        <a>Sign up</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="layout">
+   
+<!--Bootstrap-->
+<div id="carouselExampleIndicators" class="carousel slide carsz" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <center><img src="./fd1.jpg" height="500px"  alt="..."></center>
+    </div>
+    <div class="carousel-item">
+      <center><img src="./fd2.jpg" height="500px"  alt="..."></center>
+    </div>
+    <div class="carousel-item">
+      <center>  <img src="./fd3.jpg" height="500px"  alt="..."></center>
+    </div>
+    <div class="carousel-item">
+      <center>  <img src="./fd4.jpeg" height="500px"  alt="..."></center>
+    </div>
+    <div class="carousel-item">
+      <center> <img src="./fd5.jpeg" height="500px"  alt="..."></center>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="grid">
+  <div class="griditems">
+    <img class="imgs" src="fd8.avif" height="200px" width="200px">
+    <h5>Country Feast Pizza</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd9.avif" height="200px" width="200px">
+    <h5>Chicken Kabab Roll</h5>
+    <p>₹173</p>
+    <p>chicken minced with ginger</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd10.avif" height="200px" width="200px">
+    <h5>North Indian Meel</h5>
+    <p>₹150</p>
+    <p>Rice, Dhall & Chappathi.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd11.avif" height="200px" width="200px">
+    <h5>Double Chees Burger</h5>
+    <p>₹120</p>
+    <p>Chicken, Chees & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd6.jpg" height="200px" width="200px">
+    <h5>Grilled Chicken</h5>
+    <p>₹240</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd12.avif" height="200px" width="200px">
+    <h5>Country Feast Pizza</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd13.avif" height="200px" width="200px">
+    <h5>Chicken Biriyani</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd14.avif" height="200px" width="200px">
+    <h5>Peri Peri Fries</h5>
+    <p>₹120</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd8.avif" height="200px" width="200px">
+    <h5>Country Feast Pizza</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd9.avif" height="200px" width="200px">
+    <h5>Chicken Kabab Roll</h5>
+    <p>₹173</p>
+    <p>chicken minced with ginger</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd10.avif" height="200px" width="200px">
+    <h5>North Indian Meel</h5>
+    <p>₹150</p>
+    <p>Rice, Dhall & Chappathi.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd11.avif" height="200px" width="200px">
+    <h5>Double Chees Burger</h5>
+    <p>₹120</p>
+    <p>Chicken, Chees & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd6.jpg" height="200px" width="200px">
+    <h5>Grilled Chicken</h5>
+    <p>₹240</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd12.avif" height="200px" width="200px">
+    <h5>Country Feast Pizza</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd13.avif" height="200px" width="200px">
+    <h5>Chicken Biriyani</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd14.avif" height="200px" width="200px">
+    <h5>Peri Peri Fries</h5>
+    <p>₹120</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+
+  <div class="griditems">
+    <img class="imgs" src="fd8.avif" height="200px" width="200px">
+    <h5>Country Feast Pizza</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+
+  <div class="griditems">
+    <img class="imgs" src="fd8.avif" height="200px" width="200px">
+    <h5>Country Feast Pizza</h5>
+    <p>₹180</p>
+    <p>Onion, capsicum & tomato.</p>
+    <button class="btn-primary rounded p-1">Add to Cart</button>
+  </div>
+</div>
+
+<footer class="footer">
+ <p><span>ZFC ZAM ZAM FRIED CHICKEN</span><br>
+ 40, Rajiv Nagar, ukkadam, Coimbatore<br>
+contact us : 8148616691 email:sajahanshitthu@gmail.com</p>
+</footer>
+
+</body>
+</html>

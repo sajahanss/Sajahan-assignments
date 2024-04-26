@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    height: 7vh;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+    
+
+}
+h2{
+    margin-left: 100px;
+    text-shadow: 1.8px 1.8px rgba(255,255,255,0.5);
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    position: relative;
+    right: 100px;
+    
+}
+
+ul li a:hover{
+    color: gray;
+}
+.srcbox{
+    height: 50px;
+    width: 300px;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 5px;
+}
+.srcimg{
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-attachment: fixed;
+}
+.search{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.srcbox:focus{
+    border: none;
+    outline: none;
+}
+.cartimg{
+    background-color: white;
+    height: 7vh;
+    border-radius: 50%;
+}
+.layout{
+    background-color: #443531 ;
+    width: 100%;
+    position: relative;
+    top: 8vh;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 0 100px;
+    margin: 100px 0 50px 0;
+}
+.grid > div p {
+    margin: 0;
+    padding: 0;
+}
+.imgs{
+    border-radius: 5px;
+}
+.griditems{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 210px;
+}
+
+.griditems:hover{
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 2px 2px 2px;
+}
+
+.footer{
+    background-color: black;
+    
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (max-width=650px){
+    nav{
+        height: 10vh;
+    }
+}
